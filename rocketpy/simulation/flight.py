@@ -734,6 +734,7 @@ class Flight:
                         self.y_sol,
                         self.solution,
                         self.sensors,
+                        self.env,
                     )
 
                 for parachute in node.parachutes:
